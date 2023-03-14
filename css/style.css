@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.cabecalho{
+    height: 100px;
+    background-color: red;
+    color: white;
+}
+
+.cabecalho h1 {
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.carrinho {
+    position: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    border: solid 1px rgb(0, 0, 0) ;
+    padding: 5px;
+    height: 30px;
+    width: 120px;
+    font-size: 1.3em;
+    background-color:   rgb(63, 87, 245);
+    
+}
+
+#pedidos {
+    margin: 6px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    border: solid 1px rgb(0, 0, 0) ;
+    height: 50px;
+    width: 1000px;
+    color: rgb(255, 252, 252);
+    background-color: rgb(100, 126, 210);
+    display: none;
+}
+
+#icon0 {
+    border: solid 2px white ;
+    border-radius: 10px;
+}
+
+#icon0:hover{
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+    color: black;
+}
+
+#icon01 {
+    text-align: right;
+    border: solid;
+    border-radius: 5px;
+    
+}
+
+#icon01:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#icon02 {
+    text-align: center;
+    border: solid;
+    border-radius: 5px;
+    
+}
+
+#icon02:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.lanches {  
+    height: 225px;
+    text-align: center;
+    display: block;
+    color: rgb(107, 66, 0);
+    background-color: burlywood;
+    padding: 10px;
+    
+}
+.lanches p {  
+    font-size: 8em;
+    text-align: center;
+}
+
+.lanches:hover {
+    border: solid 5px black;
+}
+
+.bebidas {
+    height: 225px;
+    text-align: center;
+    display: block;
+    color: rgb(2, 82, 68);
+    background-color: rgb(134, 207, 195);
+    padding: 10px;
+}
+.bebidas p {  
+    font-size: 8em;
+    text-align: center;
+}
+.bebidas:hover {
+    border: solid 5px black;
+}
+
+.sobremesa {
+    height: 225px;
+    text-align: center;
+    display: block;
+    color:  rgb(104, 101, 1);
+    background-color:  rgb(238, 243, 147);
+    padding: 10px;
+}
+.sobremesa p {  
+    font-size: 8em;
+    text-align: center;
+}
+.sobremesa:hover {
+    border: solid 5px black;
+}
+#imgLanche {
+    height: 150px;
+    width: 125px;
+}
+
+.imgDel {
+    height: 25px;
+    width: 20px;
+}
+
+.imgDel:hover {
+    cursor: pointer;
+    background-color: rgb(143, 2, 2);
+    border-radius: 10px;
+}
+
+#menu01 p{
+    color: rgb(107, 66, 0);
+}
+#menu02 p{
+    color: rgb(2, 82, 68);
+}
+#menu03 p{
+    color:  rgb(98, 90, 27);
+}
+
+#menu01 {
+    background-color: rgb(204, 117, 3);
+    display: none;
+}
+
+#menu02 {
+    background-color: rgb(3, 200, 167);
+    display: none;
+}
+
+#menu03 {
+    background-color: rgb(218, 210, 6);
+    display: none;
+}
+
+.enviar {
+    width: 60px;
+    border-radius: 5px;
+}
+.enviar:hover {
+    cursor: pointer;
+    background-color: rgb(186, 140, 2);
+    color: rgb(222, 220, 220);
+    border: solid 1px white;
+}
+
+.lbs {
+    width: 100vw;
+    text-align: center;
+    border-radius: 80px;
+    border: solid;
+}
+
+.lbs:hover {
+    color: white;
+    background-color:  rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    height: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: red;
+    color: white;
+    text-align: center;
+    
+}
+
+footer p {
+    font-size: 3em;
+}
+
+

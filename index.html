@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="imagens/fast-food.png" type="image/x-icon">
+    <title>Go Food</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        
+        <h1>Go Food</h1>
+            <div class="carrinho">
+                <span id="icon0" class="material-icons" onclick="clickPedido()">grain</span>
+                Carrinho
+                <div id="pedidos">
+                   
+                   <!--<div id="lan01"></div>-->
+                    <!--<span id="del" class="material-icons">delete</span>-->                     
+                </div>
+            </div>
+    </header>
+    <section class="lanches">
+        <span id="icon01" class="material-icons" onclick="clickMenu01()">fastfood</span>
+        <p>Lanches</p>
+    </section>
+        <menu id="menu01"> 
+            <div class="lbs" id="xbacon">
+                <p>X-Bacon - R$12.00</p><img id="imgLanche" src="imagens/x bacon.png" alt="xbacon">
+                <p><input class="enviar" type="submit" value="Enviar" onclick="x_bacon()"></p>
+            </div>
+            <div class="lbs">
+                <p>X-Frango - R$13.50</p><img id="imgLanche" src="imagens/x frango.png" alt="xfrango">
+                <p><input class="enviar" type="submit" value="Enviar" onclick="x_frango()"></p>
+            </div>
+            <div class="lbs">
+                <p>X-Salada - R$14.00</p><img id="imgLanche" src="imagens/x salada.png" alt="xsalada">
+                <p><input class="enviar" type="submit" value="Enviar" onclick="x_salada()"></p>
+            </div>
+            <div class="lbs">
+                <p>Hot Dog - R$10.00</p><img id="imgLanche" src="imagens/hot_dog.png" alt="hotdog">
+                <p><input class="enviar" type="submit" value="Enviar" onclick="hot_dog()"></p>
+            </div>
+        </menu>
+       
+        <section class="bebidas">
+            <span id="icon02" class="material-icons" onclick="clickMenu02()">liquor</span>
+            <p>Bebidas </p>
+        </section>
+        <menu id="menu02">
+            <div class="lbs">
+                <p>Coca</p><img id="imgLanche" src="imagens/coca.png" alt="Coca">
+                <p><input class="enviar" type="submit" value="Enviar" onclick="refri01()"></p>
+            </div>
+            <div class="lbs">
+                <p>Guarána</p><img id="imgLanche" src="imagens/Guaraná_antartica.png" alt="Guarána">
+                <p><input class="enviar" type="submit" value="Enviar" onclick="refri02()"></p>
+            </div>
+            <div class="lbs">
+                <p>Fanta</p><img id="imgLanche" src="imagens/fanta.png" alt="Fanta">
+                <p><input class="enviar" type="submit" value="Enviar" onclick="refri03()"></p>
+            </div>
+            <div class="lbs">
+                <p>Pepsi</p><img id="imgLanche" src="imagens/pepsi.png" alt="Pepsi">
+                <p><input class="enviar" type="submit" value="Enviar" onclick="refri04()"></p>
+            </div>
+        </menu>
+
+        <section class="sobremesa">
+            <span id="icon02" class="material-icons" onclick="clickMenu03()">icecream</span>
+            <p>Sobremesas </p>
+        </section>
+        <menu id="menu03">
+            <div class="lbs">
+                <p>Açai - R$12.00</p><img id="imgLanche" src="imagens/açai-removebg-preview.png" alt="Açai">
+                <p><input class="enviar" type="submit" value="Enviar" onclick="sobremesa01()"></p>
+            </div>
+            <div class="lbs">
+                <p>Mousse Creme - R$10.00</p><img id="imgLanche" src="imagens/creme_belga_e_ganeche-removebg-preview.png" alt="Mose Creme">
+                <p><input class="enviar" type="submit" value="Enviar" onclick="sobremesa02()"></p>
+            </div>
+            <div class="lbs">
+                <p>Sorvete - R$15.00</p><img id="imgLanche" src="imagens/sorvete_taça-removebg-preview.png" alt="Sorvete">
+                <p><input class="enviar" type="submit" value="Enviar" onclick="sobremesa03()"></p>
+            </div>
+            <div class="lbs">
+                <p>Mousse Chocolate - R$8.00</p><img id="imgLanche" src="imagens/pexels-ella-olsson-3026810-removebg-preview.png" alt="Mose Chocolate">
+                <p><input class="enviar" type="submit" value="Enviar" onclick="sobremesa04()"></p>
+            </div>
+        </menu>
+    <footer>
+        <p>Contato/WhatsApp: (12)90000-0000</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
