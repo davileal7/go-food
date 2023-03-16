@@ -14,7 +14,7 @@
         border-radius: 5px;
         border: solid 1px rgb(0, 0, 0) ;
         height: 70px;
-        width: 400px;
+        width: 300px;
         color: rgb(255, 252, 252);
         background-color: rgb(100, 126, 210);
         display: none;
@@ -23,7 +23,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: absolute;
         height: 70px;
-        left: 400px;
+        left: 300px;
         border-radius: 10px;
     }
 
@@ -32,7 +32,7 @@
     }
 
     .lanches p,.bebidas p,.sobremesa p  {
-        font-size: 5em;
+        font-size: 4.5em;
     }
 
     #imgLanche {
@@ -44,7 +44,6 @@
     }
     .lbs {
     width: 100vw;
-   
     border-radius: 5px;
 }
 
@@ -52,7 +51,7 @@
         font-family: 'Times New Roman', Times, serif;
         background-color: red;
         color: white;
-        padding: 5px;
+        padding: 10px;
     }
     footer p {
         font-size: 1.5em;

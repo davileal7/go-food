@@ -57,18 +57,6 @@ body {
 }
 
 #icon0 {
-    border: solid 2px white ;
-    border-radius: 10px;
-}
-
-#icon0:hover{
-    cursor: pointer;
-    background-color: rgb(241, 241, 241);
-    color: black;
-    
-}
-
-#icon0 {
     text-align: center;
     border: solid;
     border-radius: 5px;
@@ -185,13 +173,13 @@ body {
 .lbs {
     width: 100vw;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .lbs:hover {
     color: white;
     background-color:  rgb(0, 0, 0);
-    transform: scale(1.1);
+   
 }
 
 p {
