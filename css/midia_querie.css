@@ -1,0 +1,60 @@
+
+
+/*celular deitado SIM*/
+@media (max-width: 1000px) {
+    
+}
+
+/*---Celular de PÉ*/
+@media (max-width: 600px) {
+    
+    #pedidos {
+        margin: 6px;
+        font-size: 0.9em;
+        border-radius: 5px;
+        border: solid 1px rgb(0, 0, 0) ;
+        height: 70px;
+        width: 400px;
+        color: rgb(255, 252, 252);
+        background-color: rgb(100, 126, 210);
+        display: none;
+    }
+    #botao {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+        height: 70px;
+        left: 400px;
+        border-radius: 10px;
+    }
+
+    .lanches,.bebidas,.sobremesa {  
+        height: 220px;  
+    }
+
+    .lanches p,.bebidas p,.sobremesa p  {
+        font-size: 5.6em;
+    }
+
+    #imgLanche {
+        height: 90px;
+        width: 80px;
+    }
+    #menu01 p {
+        font-size: 15px;
+    }
+    .lbs {
+    width: 100vw;
+    text-align: center;
+    border-radius: 5px;
+}
+
+    footer {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: red;
+        color: white;
+    }
+    footer p {
+        font-size: 1.5em;
+    }
+}
+

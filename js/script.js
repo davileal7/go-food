@@ -19,7 +19,7 @@ function clickMenu02() {
     } else {
         menu02.style.display = 'flex'
     }
-
+    
     if (menu01.style.display == 'flex') {
         menu01.style.display = 'none'
     }
