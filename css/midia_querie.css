@@ -7,6 +7,8 @@
 
 /*---Celular de PÉ*/
 @media (max-width: 600px) {
+
+    
     
     #pedidos {
         margin: 6px;
@@ -28,25 +30,31 @@
     }
 
     .lanches,.bebidas,.sobremesa {  
-        height: 160px;  
+        height: 200px;  
     }
-
     .lanches p,.bebidas p,.sobremesa p  {
-        font-size: 4.5em;
+        font-size: 5em;
     }
-
     #imgLanche {
-        height: 90px;
-        width: 80px;
+        height: 80px;
+        width: 85px;
     }
-    #menu01 p {
-        font-size: 15px;
+    #menu01,#menu02,#menu03 {
+        height: 125px;
+        padding: 12px;
+    }
+    #menu01 p,#menu02 p,#menu03 p {
+        font-size: 10px;
     }
     .lbs {
     width: 100vw;
     border-radius: 5px;
-}
-
+    }
+    .enviar {
+        font-size: 11px;
+        height: 18px;
+        width: 42px;
+    }
     footer {
         font-family: 'Times New Roman', Times, serif;
         background-color: red;

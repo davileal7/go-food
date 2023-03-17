@@ -102,7 +102,6 @@ body {
 .bebidas:hover {
     border: solid 5px black;
 }
-
 .sobremesa {
     height: 225px;
     text-align: center;
@@ -122,41 +121,44 @@ body {
     height: 150px;
     width: 125px;
 }
-
 .imgDel {
     height: 25px;
     width: 20px;
 }
-
 .imgDel:hover {
     cursor: pointer;
     background-color: rgb(143, 2, 2);
     border-radius: 10px;
 }
-
-#menu01 p{
-    color: rgb(107, 66, 0);
-}
-#menu02 p{
-    color: rgb(2, 82, 68);
-}
-#menu03 p{
-    color:  rgb(98, 90, 27);
-}
-
 #menu01 {
     background-color: rgb(204, 117, 3);
     display: none;
+    height: 210px;
+    padding: 10px;
 }
-
 #menu02 {
     background-color: rgb(3, 200, 167);
     display: none;
+    height: 210px;
+    padding: 10px;
 }
-
 #menu03 {
     background-color: rgb(218, 210, 6);
     display: none;
+    height: 210px;
+    padding: 10px;
+}
+#menu01 p{
+    font-size: 20px;
+    color: rgb(107, 66, 0);
+}
+#menu02 p{
+    font-size: 20px;
+    color: rgb(2, 82, 68);
+}
+#menu03 p{
+    font-size: 20px;
+    color:  rgb(98, 90, 27);
 }
 
 .enviar {
@@ -177,9 +179,8 @@ body {
 }
 
 .lbs:hover {
-    color: white;
     background-color:  rgb(0, 0, 0);
-   
+    border-radius: 5px;
 }
 
 p {
