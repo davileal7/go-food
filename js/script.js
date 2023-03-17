@@ -45,15 +45,27 @@ function clickMenu03() {
 function clickPedido() {
     if (pedidos.style.display == 'flex') {
         pedidos.style.display = 'none'
+
     } else {
         pedidos.style.display = 'flex'
     }
-    
+    if (botao.style.display == 'flex') {
+        botao.style.display = 'none'
+    }
+    else {
+        botao.style.display = 'flex'
+    } 
+}
+
+function conf() {
+    alert("Pedidos enviados com sucesso!")
+    const clear = document.querySelector("#pedidos")
+    clear.innerHTML = ""
 }
 
 function deletar() {
     const delet = document.querySelector(".lan01")
-    delet.remove()
+    delet.innerHTML =""
 }
 function deletar2() {
     const delet = document.querySelector(".lan02")
