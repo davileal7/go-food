@@ -33,7 +33,7 @@
         height: 200px;  
     }
     .lanches p,.bebidas p,.sobremesa p  {
-        font-size: 5em;
+        font-size: 4em;
     }
     #imgLanche {
         height: 80px;
@@ -44,7 +44,7 @@
         padding: 12px;
     }
     #menu01 p,#menu02 p,#menu03 p {
-        font-size: 10px;
+        font-size: 9px;
     }
     .lbs {
     width: 100vw;
