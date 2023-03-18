@@ -8,7 +8,7 @@
         border-radius: 5px;
         border: solid 1px rgb(0, 0, 0) ;
         height: 70px;
-        width: 500px;
+        width: 520px;
         color: rgb(255, 252, 252);
         background-color: rgb(100, 126, 210);
         display: none;
@@ -17,7 +17,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: absolute;
         height: 70px;
-        left: 500px;
+        left: 520px;
         border-radius: 10px;
     }
 
@@ -69,7 +69,7 @@
         border-radius: 5px;
         border: solid 1px rgb(0, 0, 0) ;
         height: 70px;
-        width: 300px;
+        width: 310px;
         color: rgb(255, 252, 252);
         background-color: rgb(100, 126, 210);
         display: none;
@@ -78,7 +78,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: absolute;
         height: 70px;
-        left: 300px;
+        left: 310px;
         border-radius: 10px;
     }
 
@@ -97,7 +97,7 @@
         padding: 12px;
     }
     #menu01 p,#menu02 p,#menu03 p {
-        font-size: 7px;
+        font-size: 8.5px;
     }
     .lbs {
     width: 100vw;
