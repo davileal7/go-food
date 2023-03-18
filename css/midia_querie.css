@@ -61,7 +61,7 @@
 
 
 /*---Celular de PÉ*/
-@media (max-width: 600px) {
+@media  screen and (min-width: 600px) and (max-width: 768px){
 
     #pedidos {
         margin: 6px;
