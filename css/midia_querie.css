@@ -61,7 +61,7 @@
 
 
 /*---Celular de PÉ*/
-@media  screen and (min-width: 600px) and (max-width: 768px){
+@media  screen and (max-width: 600px) and (max-width: 768px){
 
     #pedidos {
         margin: 6px;
@@ -83,10 +83,10 @@
     }
 
     .lanches,.bebidas,.sobremesa {  
-        height: 200px;  
+        height: 140px;  
     }
     .lanches p,.bebidas p,.sobremesa p  {
-        font-size: 4em;
+        font-size: 4.2em;
     }
     #imgLanche {
         height: 80px;
