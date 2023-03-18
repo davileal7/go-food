@@ -108,7 +108,9 @@
         height: 18px;
         width: 42px;
     }
-    
+    footer {
+        height: 200px;
+    }
     footer p {
         font-size: 1em;
     }
