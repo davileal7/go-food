@@ -8,7 +8,7 @@
         border-radius: 5px;
         border: solid 1px rgb(0, 0, 0) ;
         height: 70px;
-        width: 520px;
+        width: 550px;
         color: rgb(255, 252, 252);
         background-color: rgb(100, 126, 210);
         display: none;
@@ -17,15 +17,19 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: absolute;
         height: 70px;
-        left: 520px;
+        left: 550px;
         border-radius: 10px;
     }
 
     .lanches,.bebidas,.sobremesa {  
-        height: 150px;  
+        height: 350px;  
     }
     .lanches p,.bebidas p,.sobremesa p  {
-        font-size: 5em;
+        font-size: 7em;
+    }
+    .posicao {
+        position: relative;
+        top: 80px;
     }
     #imgLanche {
         height: 80px;
@@ -69,7 +73,7 @@
         border-radius: 5px;
         border: solid 1px rgb(0, 0, 0) ;
         height: 70px;
-        width: 310px;
+        width: 325px;
         color: rgb(255, 252, 252);
         background-color: rgb(100, 126, 210);
         display: none;
@@ -78,15 +82,20 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         position: absolute;
         height: 70px;
-        left: 310px;
+        left: 325px;
         border-radius: 10px;
     }
 
     .lanches,.bebidas,.sobremesa {  
-        height: 140px;  
+        height: 255px;  
     }
     .lanches p,.bebidas p,.sobremesa p  {
         font-size: 4.2em;
+    }
+
+    .posicao {
+        position: relative;
+        top: 50px;
     }
     #imgLanche {
         height: 80px;
@@ -108,9 +117,7 @@
         height: 18px;
         width: 42px;
     }
-    footer {
-        height: 200px;
-    }
+    
     footer p {
         font-size: 1em;
     }

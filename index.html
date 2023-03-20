@@ -11,8 +11,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <main id="corpo">
-        <header class="cabecalho">
+    <header class="cabecalho">
             <h1>Go Food</h1>
                 <div class="carrinho">
                     <span id="icon0" class="material-icons" onclick="clickPedido()">grain</span>
@@ -28,7 +27,7 @@
         </header>
         <section class="lanches">
             <span id="icon0" class="material-icons" onclick="clickMenu01()">fastfood</span>
-            <p>Lanches</p>
+            <p class="posicao">Lanches</p>
         </section>
             <section id="menu01">
                 <div class="lbs">
@@ -50,7 +49,7 @@
             </section>
             <section class="bebidas">
                 <span id="icon0" class="material-icons" onclick="clickMenu02()">liquor</span>
-                <p>Bebidas </p>
+                <p class="posicao">Bebidas </p>
             </section>
             <section id="menu02">
                 <div class="lbs">
@@ -72,7 +71,7 @@
             </section>
             <section class="sobremesa">
                 <span id="icon0" class="material-icons" onclick="clickMenu03()">icecream</span>
-                <p>Sobremesas </p>
+                <p class="posicao">Sobremesas </p>
             </section>
             <section id="menu03">
                 <div class="lbs">
@@ -92,10 +91,12 @@
                     <p><input class="enviar" type="submit" value="Enviar" onclick="sobremesa04()"></p>
                 </div>
             </section>
-        <footer>
-            <p>Contato/WhatsApp: (12)90000-0000</p>
-        </footer>
-    </main>
+            <footer>
+                <p>Contato/WhatsApp: (12)90000-0000</p>
+            </footer>
+            
+       
+   
     <script src="js/script.js"></script>
 </body>
 </html>
