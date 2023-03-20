@@ -2,6 +2,7 @@
 
 /*celular deitado SIM*/
 @media (max-width: 1000px) {
+    
     #pedidos {
         margin: 6px;
         font-size: 0.9em;
@@ -14,14 +15,18 @@
         display: none;
     }
     #botao {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
         position: absolute;
         height: 70px;
         left: 550px;
         border-radius: 10px;
     }
+    span {
+        transform: scale(1.5);
+    }
 
     .lanches,.bebidas,.sobremesa {  
+        
         height: 350px;  
     }
     .lanches p,.bebidas p,.sobremesa p  {
@@ -79,7 +84,7 @@
         display: none;
     }
     #botao {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+       
         position: absolute;
         height: 70px;
         left: 325px;
